@@ -37,7 +37,7 @@ function cadastrar(){
 
 async function cadastrarUsuario() {
     try{
-        const response = await fetch('project-game-seven.vercel.app',{
+        const response = await fetch('https://api-swart-six-76.vercel.app/cadastrar',{
             method: 'POST',
             headers:{
                 "Content-Type":"application/json",
