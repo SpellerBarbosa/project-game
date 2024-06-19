@@ -2,8 +2,12 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "build": "nuxt build",
+    "start": "node backend/app.js",
     "dev": "nuxt dev",
     "server": "nodemon backend/app.js",
     "generate": "nuxt generate",
