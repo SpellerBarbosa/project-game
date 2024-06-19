@@ -37,7 +37,7 @@ function cadastrar(){
 
 async function cadastrarUsuario() {
     try{
-        const response = await fetch(`${process.env.BASE_URL}`,{
+        const response = await fetch('project-game-seven.vercel.app',{
             method: 'POST',
             headers:{
                 "Content-Type":"application/json",
